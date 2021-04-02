@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Open Sans',sans-serif;
+    --twitter-color:#58b7f5;
+    --twitter-background:#e6ecf0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+img{
+  object-fit: contain; 
+  height: 100%;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+ hr {
+   height: 1px;
+   border: 0;
+   background: lightgray;
+   margin: 10px 0;
+ }
+.flex{
+  display: flex;
+}
+.sb{
+  justify-content: space-between;
+}
+.ai{
+  align-items: center;
+}
+.fc{
+  flex-direction: column;
+}
