@@ -34,7 +34,7 @@
     object-fit: contain;
     max-width: 100%;
 }
-@media (max-width:768px){
+@media (max-width:569px){
     .header__icons .header__icon{
         display: none;
     }

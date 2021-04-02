@@ -17,6 +17,7 @@
 }
 .videoRow__text  h3 {
     font-size: 20px;
+    padding-top: 10px;
 }
 .videoRow__desc{
     margin-top: 20px;
@@ -40,6 +41,8 @@
     .videoRow {
         flex-direction: column;
     }
-        
+ .videoRow__text{
+     margin-left: 0px;
+ }       
 
 }
